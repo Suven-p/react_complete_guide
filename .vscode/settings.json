@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "expense_tracker": true,
+    "first_project": true,
+    "login_page/node_modules": true,
+    "course_goals": true,
+    "debugging": true,
+    "login_page": true
+  }
+}
