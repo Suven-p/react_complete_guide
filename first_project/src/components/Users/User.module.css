@@ -1,0 +1,16 @@
+.user-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 5px 5px;
+    border: 1px solid grey;
+    font: inherit;
+    height: 2.5rem;
+}
+
+.user-data {
+    margin: auto 5px;
+}
+
+.delete-icon {
+    margin: auto 10px auto auto;
+}
