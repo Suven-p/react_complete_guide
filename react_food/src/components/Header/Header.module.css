@@ -1,0 +1,25 @@
+.navbarBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #8a2b06;
+    color: white;
+    width: 100%;
+    height: 4rem;
+    z-index: 90;
+}
+
+.navbarBox nav {
+    width: 80%;
+    margin: auto;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 1;
+    font-size: 2.5rem;
+    font-weight: 600;
+}

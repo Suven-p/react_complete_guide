@@ -1,0 +1,28 @@
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.actions button {
+    border: 1px solid #8a2b06;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 12px;
+    width: 6rem;
+}
+
+.actions button:hover {
+    background-color: #92320c;
+    color: white;
+}
+
+.close-btn {
+    color: #8a2b06;
+    background-color: white;
+}
+
+.order-btn {
+    color: white;
+    background-color: #8a2b06;
+}

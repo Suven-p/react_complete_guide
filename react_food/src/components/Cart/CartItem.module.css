@@ -1,0 +1,46 @@
+.itemContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+    margin-top: 0.8rem;
+}
+
+.itemName {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(70 66 66);
+}
+
+.itemInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.itemPrice {
+    font-weight: bold;
+    color: #8a2b06;
+}
+
+.itemNumber {
+    border: 1px solid rgb(70 66 66);
+    padding: 0rem 0.8rem;
+    margin-left: 5rem;
+    color: rgb(70 66 66);
+    border-radius: 10px;
+}
+
+.itemControls button {
+    border: 1px solid #8a2b06;
+    border-radius: 5px;
+    color: #8a2b06;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
